@@ -49,7 +49,16 @@ header nav ul a{
     background-color: #000000;
     background-image: url(./img/tabela\ periodica.png);
     padding-inline: 10vh;
-    
+    background-size: 75% 60%;
+    background-position-x: 50%;
+    background-position-y: 95%;
+    background-repeat: no-repeat;
+}
+
+#elementos a{
+    color: white;
+    font-size: 20%;
+    padding-top: 20%;
 }
 
 #experimento{
@@ -63,3 +72,4 @@ header nav ul a{
 #videos{
     background-color: pink;
 }
+
