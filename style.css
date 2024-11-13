@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    padding: 16px;
+    width: 100vw;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    color: #EAD5FF;
+}
+
+header nav ul a{
+    padding: 8px;
+    transition: 1s;
+}
+
+.grupo{
+    height: 100dvh;
+}
+
+#home{
+    background-color: aquamarine;
+}
+
+#sobre{
+    background-color: red;
+}
+
+#elementos{
+    background-color: #000000;
+    background-image: url(./img/tabela\ periodica.png);
+    padding-inline: 10vh;
+    
+}
+
+#experimento{
+    background-color: beige;
+}
+
+#cientistas{
+    background-color: purple;
+}
+
+#videos{
+    background-color: pink;
+}
