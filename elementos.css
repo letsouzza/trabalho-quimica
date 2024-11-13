@@ -37,10 +37,17 @@ header nav ul a{
     height: 100dvh;
 }
 
-#home{
-    background-color: aquamarine;
+#elementos{
+    background-color: #000000;
+    background-image: url(./img/tabela\ periodica.png);
+    padding-inline: 10vh;
+    background-size: 75% 60%;
+    background-position-x: 50%;
+    background-position-y: 95%;
+    background-repeat: no-repeat;
 }
 
-#sobre{
-    background-color: red;
+#elementos a{
+    color: white;
+    font-size: 40px;
 }

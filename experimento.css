@@ -37,10 +37,7 @@ header nav ul a{
     height: 100dvh;
 }
 
-#home{
-    background-color: aquamarine;
-}
 
-#sobre{
-    background-color: red;
+#experimento{
+    background-color: beige;
 }
