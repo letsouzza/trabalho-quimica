@@ -3,25 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Passion+One:wght@400;700;900&family=Patrick+Hand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Projeto Final</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#sobre">Sobre química</a></li>
-                <li><a href="./elementos.html">Elementos</a></li>
-                <li><a href="./experimentos.html">Experimentos</a></li>
-                <li><a href="./cientistas.html">Cientistas</a></li>
-                <li><a href="./videos.html">Video Aulas</a></li>
-            </ul>
-        </nav>
+        <div class="inicio">
+            <img src="./img/listras.png" alt="">
+            <a href="#home">HOME</a>
+        </div>
+        <div class="menu">
+            <a href="#sobre">SOBRE QUÍMICA</a>
+            <a href="./elementos.html">ELEMENTOS</a>
+            <a href="./experimentos.html">EXPERIMENTOS</a>
+            <a href="./cientistas.html">CIENTISTAS</a>
+            <a href="./videos.html">VÍDEO AULAS</a>
+        </div>
+        <div class="logo">
+            <h1>QUÍMICA</h1>
+            <img src="./img/logoquimica.png" alt="logo">
+        </div>
     </header>
     <main>
-        <section id="home" class="grupo"></section>
-        <section id="sobre" class="grupo"></section>
+        <section id="home" class="grupo">
+            <div class="texto">
+                <h1>QUÍMICA</h1>
+                <span>Venha conhecer mais sobre a matéria</span>
+                <p>Conheça mais sobre Química, em nossos site você encontrará vídeo aulas, experimentos, a história da química e muito mais, confira já </p>
+                <button>SAIBA MAIS</button>
+            </div>
+            <img src="./img/planeta.png" alt="Planeta">
+        </section>
+        <section id="sobre" class="grupo">
+            <div class="container">
+                <img src="./img/retangulo.png" alt="Retângulo">
+            </div>
+            <h1>Sobre</h1>
+            <div class="historia">
+                <h2>História da Química</h2>
+                <span>
+                    A Química surge durante a idade média através da Alquimia, que era uma mistura de ciência, arte e magia.
+                    O objetivo da Alquimia foi criar a Pedra Filosofal, com capacidade de transformar metais comuns em ouro, 
+                    e produzir o Elixir da Imortalidade, que curaria de todos os males e garantiria a longa vida.
+                    A partir disso surge diversos experimentos e o que conhecemos hoje como química
+                </span>
+            </div>
+            <div class="image">
+                <img src="./img/alquimia.png" alt="Alquimista fazendo experimento">
+            </div>
+            <div class="conceito">
+                <h2>O que é?</h2>
+                <span>Química é a ciência que estuda a matéria, sua estrutura, formação e as transformações, levando em consideração a energia envolvida em todo o processo.</span>
+                <p>A Química faz parte das Ciências da Natureza e se concentra em observar fenômenos, criar teorias para explicá-los e modelos que os representem.</p>
+            </div>
+            <div class="link">
+                <a href="https://www.todamateria.com.br/o-que-e-quimica/#:~:text=Qu%C3%ADmica%20%C3%A9%20a%20ci%C3%AAncia%20que,e%20modelos%20que%20os%20representem.">Conheça Mais</a>
+                <img src="./img/atomo-gif.gif" alt="Atomo">
+            </div>
+        </section>
     </main>
 </body>
 </html>

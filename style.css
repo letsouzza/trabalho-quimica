@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
-}
-
 ul, ol, li{
     list-style: none;
 }
@@ -17,30 +13,229 @@ html, body{
 }
 
 header{
-    position: fixed;
-    padding: 16px;
-    width: 100vw;
-}
-
-header nav ul{
+    background-image: url(./img/estrelas\ 1.png);
+    background-color: black;
+    height: 100px;
     display: flex;
     justify-content: space-between;
-    color: #EAD5FF;
+    align-items: center;
 }
 
-header nav ul a{
-    padding: 8px;
-    transition: 1s;
+.inicio a{
+    text-decoration: none;
+    position: absolute;
+    top: 4vh;
+    text-decoration: none;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #ead5ff;
 }
+
+.menu{
+    display: flex;
+    gap: 70px; /*Distância entre os elementos */
+}
+
+header a{
+    text-decoration: none;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #ead5ff;
+}
+header h1{
+    display: inline;
+    position: absolute;
+    right: 10vh;
+    top: 3vh;
+    font-size: 20px;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #ead5ff;
+}
+.inicio img{
+    height: 45px;
+}
+
+.logo img{
+    height: 80px;
+}
+
 
 .grupo{
-    height: 100dvh;
+    height: 120vh;
 }
 
 #home{
-    background-color: aquamarine;
+    background-image: url(./img/estrelas\ 1.png);
+    background-color: black;
+}
+#home img{
+    width: 45vw;
+    height: 45vw;
+    position: absolute;
+    right: 0vw;
+    top: 10vw;
 }
 
+.texto{
+    width: 100vh;
+    height: 80vh;
+}
+.texto h1{
+    position: absolute;
+    top: 20vh;
+    right: 105vh;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17vh;
+    background-image: linear-gradient(to bottom, #7A46AD, #321D47);
+    background-clip:text;
+    /*permite que o fundo ou imagem seja recortado de acordo com o formato do texto */
+    -webkit-text-fill-color: transparent;
+}
+.texto span{
+    position: absolute;
+    top: 36vh;
+    right: 112vh;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #7A46AD;
+}
+.texto p{
+    position: absolute;
+    top: 45vh;
+    right: 101vh;
+    text-align: center;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #ead5ff;
+    width: 60vh;
+}
+.texto button{
+    position: absolute;
+    top: 70vh;
+    right: 123vh;
+    height: 5vh;
+    width: 18vh;
+    font-size: 15px;
+    background-color: #ead5ff;
+    color: rgb(0, 0, 0);
+    border-radius: 40px; /* Serve para deixar arredondado a borda*/
+}
+
+
 #sobre{
-    background-color: red;
+    background-image: url(./img/estrelas\ 1.png);
+    background-color: black;
+}
+#sobre h1{
+    position: absolute;
+    top: 132vh;
+    left: 15vh;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10vh;
+    color: #f8f2fe;
+}
+
+.container img{
+    display: flex;
+    padding-left: 88px;
+    width: 170vh;
+    height: 110vh;
+    z-index: 0;
+}
+
+.historia{
+    position: absolute;
+    top: 130vh;
+    z-index: 1;
+    width: 90vh;
+    padding-left: 20vh;
+}
+.historia h2{
+    position: absolute;
+    left: 20vh;
+    top: 15vh;
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4vh;
+    color: #ead5ff;
+}
+.historia span{
+    position: absolute;
+    top: 22vh;
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vh;
+    color: white;
+}
+
+.image img{
+    position: absolute;
+    right: 18vh;
+    top: 140vh;
+    width: 45vh;
+    height: 45vh;
+}
+
+.conceito{
+    position: absolute;
+    top: 200vh;
+    z-index: 1;
+    width: 150vh;
+    padding-left: 20vh;
+}
+.conceito h2{
+    position: absolute;
+    left: 20vh;
+    top: -6vh;
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4vh;
+    color: #ead5ff;
+}
+.conceito span{
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vh;
+    color: white;
+}
+.conceito p{
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vh;
+    color: white;
+}
+
+.link a{
+    position: absolute;
+    top: 230vh;
+    right: 25vh;
+    color: white;
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+.link img{
+    position: absolute;
+    top: 227vh;
+    right: 15vh;
+    width: 8vh;
+    height: 8vh;
 }
