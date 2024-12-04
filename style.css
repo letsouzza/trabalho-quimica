@@ -239,3 +239,9 @@ header h1{
     width: 8vh;
     height: 8vh;
 }
+
+@media (max-width: 960px) {
+    .barradireita{
+        display: none;
+    }
+}
