@@ -46,7 +46,7 @@ header{
 
 .menu{
     display: flex;
-    gap: 70px; /*Distância entre os elementos */
+    gap: 70px; /*Distância entre os elementos*/
 }
 
 header a{
@@ -74,17 +74,12 @@ header h1{
 
 .logo img{
     height: 80px;
-}
+} 
 
 main{
     height: 100vh;
     flex-grow: 1;
     display: flex;
-    background-image: url(./img/tabela\ periodica.png);
-    background-size: 90% 75%;
-    background-position-x: 50%;
-    background-position-y: 95%;
-    background-repeat: no-repeat;
 }
 
 
@@ -96,99 +91,141 @@ main{
     padding-left: 12%;
     justify-content: center;
     display: flex;
-    background-image: linear-gradient(to bottom, #7A46AD, #321D47);
+    background-image: linear-gradient(to bottom, #7A46AD, #42265e);
     background-clip:text;
     -webkit-text-fill-color: transparent; /*permite que o fundo ou imagem seja recortado de acordo com o formato do texto */
+} 
+
+.container{
+    height: 100vh;
+    columns: 18;
+    padding-top: 15%;
 }
 
-.hidrogenio a{
+.teste{
     color: black;
-    font-family: "Passion One", sans-serif;
-    position: absolute;
-    padding-top: 13.8%;
-    padding-left: 9.3%;
-    font-size: 230%;
-}
-
-.litio a{
-    color: black;
-    font-family: "Passion One", sans-serif;
-    position: absolute;
-    padding-top: 19.3%;
-    padding-left: 9.2%;
-    font-size: 227%;
-}
-
-.sodio{
-    font-family: "Passion One", sans-serif;
-    position: absolute;
-    padding-top: 24.9%;
-    padding-left: 8.8%;
-    font-size: 227%;
-    color: black;
-}
-
-.potassio{
-    color: black;
-    font-family: "Passion One", sans-serif;
-    position: absolute;
-    padding-top: 30.5%;
-    padding-left: 9.4%;
-    font-size: 227%;
-}
-
-.rubidio{
-    color: black;
-    font-family: "Passion One", sans-serif;
-    position: absolute;
-    padding-top: 36.3%;
-    padding-left: 8.8%;
-    font-size: 208%;
-}
-
-.cesio{
-    color: black;
-    font-family: "Passion One", sans-serif;
-    position: absolute;
-    padding-top: 41.8%;
-    padding-left: 9%;
-    font-size: 204%;
-}
-
-.francio{
-    color: black;
-    font-family: "Passion One", sans-serif;
-    position: absolute;
-    padding-top: 47.5%;
-    padding-left: 9.2%;
-    font-size: 204%;
-}
-
-.berilio{
-    font-family: "Passion One", sans-serif;
-    position: absolute;
-    padding-top: 19.5%;
-    padding-left: 13.8%;
-    font-size: 208%;
-    color: black;
-}
-
-.magnesio{
-    font-family: "Passion One", sans-serif;
-    position: absolute;
-    padding-top: 25%;
-    padding-left: 13.6%;
-    font-size: 208%;
-    color: black;
-}
-
-.grupo2{
-    font-family: "Passion One", sans-serif;
-    position: absolute;
-    padding-top: 30.5%;
-    padding-left: 13.6%;
-    font-size: 208%;
-    color: black;
+    top: 20%;
+    width: 75px;
+    height: 75px;
+    background-color: #7A46AD;
     display: flex;
-    gap: 50%;
+    margin: 8px;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+.teste:nth-child(8){
+    visibility: hidden;
+}
+.teste:nth-child(15){
+    visibility: hidden;
+}
+.teste:nth-child(16){
+    visibility: hidden;
+}
+.teste:nth-child(17){
+    visibility: hidden;
+}
+.teste:nth-child(20){
+    visibility: hidden;
+}
+.teste:nth-child(21){
+    visibility: hidden;
+}
+.teste:nth-child(22){
+    visibility: hidden;
+}
+.teste:nth-child(23){
+    visibility: hidden;
+}
+.teste:nth-child(24){
+    visibility: hidden;
+}
+.teste:nth-child(29){
+    visibility: hidden;
+}
+.teste:nth-child(30){
+    visibility: hidden;
+}
+.teste:nth-child(31){
+    visibility: hidden;
+}
+.teste:nth-child(36){
+    visibility: hidden;
+}
+.teste:nth-child(37){
+    visibility: hidden;
+}
+.teste:nth-child(38){
+    visibility: hidden;
+}
+.teste:nth-child(43){
+    visibility: hidden;
+}
+.teste:nth-child(44){
+    visibility: hidden;
+}
+.teste:nth-child(45){
+    visibility: hidden;
+}
+.teste:nth-child(50){
+    visibility: hidden;
+}
+.teste:nth-child(51){
+    visibility: hidden;
+}
+.teste:nth-child(52){
+    visibility: hidden;
+}
+.teste:nth-child(57){
+    visibility: hidden;
+}
+.teste:nth-child(58){
+    visibility: hidden;
+}
+.teste:nth-child(59){
+    visibility: hidden;
+}
+.teste:nth-child(64){
+    visibility: hidden;
+}
+.teste:nth-child(65){
+    visibility: hidden;
+}
+.teste:nth-child(66){
+    visibility: hidden;
+}
+.teste:nth-child(71){
+    visibility: hidden;
+}
+.teste:nth-child(72){
+    visibility: hidden;
+}
+.teste:nth-child(73){
+    visibility: hidden;
+}
+.teste:nth-child(78){
+    visibility: hidden;
+}
+.teste:nth-child(79){
+    visibility: hidden;
+}
+.teste:nth-child(80){
+    visibility: hidden;
+}
+.teste:nth-child(85){
+    visibility: hidden;
+}
+.teste:nth-child(92){
+    visibility: hidden;
+}
+.teste:nth-child(99){
+    visibility: hidden;
+}
+.teste:nth-child(106){
+    visibility: hidden;
+}
+.teste:nth-child(113){
+    visibility: hidden;
 }
