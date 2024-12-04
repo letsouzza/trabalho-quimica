@@ -277,11 +277,14 @@ header h1{
         display: none;
     }
     .menu{
-        gap: 60px;
+        gap: 30px;
         padding-left: 5vh;
     }
     .inicio a{
         padding-left: 3vh;
-        padding-top: 0vh;
+        padding-top: -1vh;
+    }
+    #videos h1{
+        font-size: 10vh;
     }
 }
