@@ -15,11 +15,58 @@ ul, ol, li{
 html, body{
     scroll-behavior: smooth;
 }
-
+  
+  
 header{
-    position: fixed;
-    padding: 16px;
-    width: 100vw;
+    background-image: url(./img/estrelas\ 1.png);
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.inicio a{
+    position: absolute;
+    top: 4vh;
+    text-decoration: none;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #ead5ff;
+}
+
+.menu{
+    display: flex;
+    gap: 70px; /*Distância entre os elementos */
+}
+
+header a{
+    text-decoration: none;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #ead5ff;
+
+}
+
+header h1{
+    display: inline;
+    position: absolute;
+    right: 10vh;
+    top: 3vh;
+    font-size: 20px;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #ead5ff;
+}
+.inicio img{
+    height: 45px;
+}
+
+.logo img{
+    height: 80px;
 }
 
 header nav ul{
@@ -35,9 +82,90 @@ header nav ul a{
 
 .grupo{
     height: 100dvh;
+
+}
+#experimento h1{
+    font-size: 15vh;
+    color: black;
+    justify-content: center;
+    display: flex;
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 5%;
+    background-image: linear-gradient(to bottom, #7A46AD, #321D47);
+    background-clip:text;
+    /*permite que o fundo ou imagem seja recortado de acordo com o formato do texto */
+    -webkit-text-fill-color: transparent;
 }
 
+#experimento p{
+    color: white;
+    padding-top: 9%;
+    padding-left: 8%;
+    font-size: 4vh;
+    display: flex;
+    flex-direction: row;
+    width: 95vh;
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
 
-#experimento{
-    background-color: beige;
+.video2{
+    display: flex;
+    justify-content: right;
+    margin-right: 10vw;
+    flex-direction: row;
+}
+
+.video2 p{
+    display: flex;
+    margin-top: 5vh;
+    margin-left: 6vh;
+    color: white;
+    font-size: 2vh;
+    width: 95vh;
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.video3{
+    display: flex;
+    flex-direction: row;
+}
+
+.video3 p{
+    display: flex;
+    color: white;
+    font-size: 4vh;
+    width: 95vh;
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 3vh;
+}
+
+#videos{
+    background-image: url(./img/estrelas\ 1.png);
+    background-color: black;
+}
+
+body{
+    background-image: url(./img/estrelas\ 1.png);
+    background-color: black;
+}
+
+iframe{
+    display: flex;
+    justify-content: center;
+    margin-left: 10vw;
+    margin-top: 8vw;
 }

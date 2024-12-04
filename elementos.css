@@ -16,38 +16,179 @@ html, body{
     scroll-behavior: smooth;
 }
 
-header{
-    position: fixed;
-    padding: 16px;
+body{
+    background-image: url(./img/estrelas\ 1.png);
+    background-color: black;
+    height: 50vw;
     width: 100vw;
-}
-
-header nav ul{
     display: flex;
     justify-content: space-between;
-    color: #EAD5FF;
 }
 
-header nav ul a{
-    padding: 8px;
-    transition: 1s;
+header{
+    height: 100px;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
 }
 
-.grupo{
-    height: 100dvh;
+.inicio a{
+    position: absolute;
+    top: 3.5vh;
+    text-decoration: none;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #ead5ff;
 }
 
-#elementos{
-    background-color: #000000;
+.menu{
+    display: flex;
+    gap: 70px; /*Distância entre os elementos */
+}
+
+header a{
+    text-decoration: none;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #ead5ff;
+}
+
+header h1{
+    display: inline;
+    position: absolute;
+    right: 10vh;
+    top: 3vh;
+    font-size: 20px;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #ead5ff;
+}
+.inicio img{
+    height: 45px;
+}
+
+.logo img{
+    height: 80px;
+}
+
+main{
+    height: 100vh;
+    flex-grow: 1;
+    display: flex;
     background-image: url(./img/tabela\ periodica.png);
-    padding-inline: 10vh;
-    background-size: 75% 60%;
+    background-size: 90% 75%;
     background-position-x: 50%;
     background-position-y: 95%;
     background-repeat: no-repeat;
 }
 
-#elementos a{
-    color: white;
-    font-size: 40px;
+
+.titulo h2{
+    font-family: "Passion One", sans-serif;
+    position: absolute;
+    font-size: 335%;
+    padding-top: 8%;
+    padding-left: 12%;
+    justify-content: center;
+    display: flex;
+    background-image: linear-gradient(to bottom, #7A46AD, #321D47);
+    background-clip:text;
+    -webkit-text-fill-color: transparent; /*permite que o fundo ou imagem seja recortado de acordo com o formato do texto */
+}
+
+.hidrogenio a{
+    color: black;
+    font-family: "Passion One", sans-serif;
+    position: absolute;
+    padding-top: 13.8%;
+    padding-left: 9.3%;
+    font-size: 230%;
+}
+
+.litio a{
+    color: black;
+    font-family: "Passion One", sans-serif;
+    position: absolute;
+    padding-top: 19.3%;
+    padding-left: 9.2%;
+    font-size: 227%;
+}
+
+.sodio{
+    font-family: "Passion One", sans-serif;
+    position: absolute;
+    padding-top: 24.9%;
+    padding-left: 8.8%;
+    font-size: 227%;
+    color: black;
+}
+
+.potassio{
+    color: black;
+    font-family: "Passion One", sans-serif;
+    position: absolute;
+    padding-top: 30.5%;
+    padding-left: 9.4%;
+    font-size: 227%;
+}
+
+.rubidio{
+    color: black;
+    font-family: "Passion One", sans-serif;
+    position: absolute;
+    padding-top: 36.3%;
+    padding-left: 8.8%;
+    font-size: 208%;
+}
+
+.cesio{
+    color: black;
+    font-family: "Passion One", sans-serif;
+    position: absolute;
+    padding-top: 41.8%;
+    padding-left: 9%;
+    font-size: 204%;
+}
+
+.francio{
+    color: black;
+    font-family: "Passion One", sans-serif;
+    position: absolute;
+    padding-top: 47.5%;
+    padding-left: 9.2%;
+    font-size: 204%;
+}
+
+.berilio{
+    font-family: "Passion One", sans-serif;
+    position: absolute;
+    padding-top: 19.5%;
+    padding-left: 13.8%;
+    font-size: 208%;
+    color: black;
+}
+
+.magnesio{
+    font-family: "Passion One", sans-serif;
+    position: absolute;
+    padding-top: 25%;
+    padding-left: 13.6%;
+    font-size: 208%;
+    color: black;
+}
+
+.grupo2{
+    font-family: "Passion One", sans-serif;
+    position: absolute;
+    padding-top: 30.5%;
+    padding-left: 13.6%;
+    font-size: 208%;
+    color: black;
+    display: flex;
+    gap: 50%;
 }
