@@ -1,6 +1,6 @@
 # Projeto-quimica -2024
 
-![](./img/screenshot:preview.png)
+![](./img/screenshot.png)
 
 ---
 ## Sobre
