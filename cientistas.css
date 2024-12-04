@@ -4,39 +4,138 @@
     box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
-}
-
 ul, ol, li{
     list-style: none;
 }
 
 html, body{
     scroll-behavior: smooth;
+    background-image: url(./img/estrelas\ 1.png);
+    background-color: black;
 }
 
 header{
-    position: fixed;
-    padding: 16px;
-    width: 100vw;
-}
-
-header nav ul{
+    background-image: url(./img/estrelas\ 1.png);
+    background-color: black;
+    height: 100px;
     display: flex;
     justify-content: space-between;
-    color: #EAD5FF;
+    align-items: center;
 }
 
-header nav ul a{
-    padding: 8px;
-    transition: 1s;
+.inicio a{
+    text-decoration: none;
+    position: absolute;
+    top: 4vh;
+    text-decoration: none;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #ead5ff;
 }
 
-.grupo{
-    height: 100dvh;
+.menu{
+    display: flex;
+    gap: 70px; /*Distância entre os elementos */
 }
 
-#cientistas{
-    background-color: purple;
+header a{
+    text-decoration: none;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #ead5ff;
+}
+header h1{
+    display: inline;
+    position: absolute;
+    right: 10vh;
+    top: 3vh;
+    font-size: 20px;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #ead5ff;
+}
+.inicio img{
+    height: 45px;
+}
+.logo img{
+    height: 80px;
+}
+
+.texto h1{
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17vh;
+    background-image: linear-gradient(to bottom, #7A46AD, #321D47);
+    background-clip:text;
+    /*permite que o fundo ou imagem seja recortado de acordo com o formato do texto */
+    -webkit-text-fill-color: transparent;
+    padding-left: 12vh;
+    padding-top: 8vh;
+}
+.texto h2{
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8vh;
+    color: white;
+    width: 80vh;
+    padding-left: 12vh;
+}
+.texto p{
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vh;
+    color: white;
+    width: 70vh;
+    padding-left: 12vh;
+    padding-top: 10vh;
+}
+
+#circulos{
+    width: 70vh;
+    position: absolute;
+    right: 5vh;
+    top: 20vh;
+}
+
+#fermi img{
+    width: 12vh;
+    position: absolute;
+    top: 45vh;
+    right: 6vh;
+}
+#einsten img{
+    width: 12vh;
+    position: absolute;
+    top: 18vh;
+    right: 50vh;
+}
+#curie img{
+    width: 12vh;
+    position: absolute;
+    top: 65vh;
+    right: 38vh;
+}
+#meitner img{
+    width: 12vh;
+    position: absolute;
+    top: 31vh;
+    right: 31vh;
+}
+#lawrence img{
+    width: 12vh;
+    position: absolute;
+    top: 55vh;
+    right: 60vh;
+}
+#copernico img{
+    width: 12vh;
+    position: absolute;
+    top: 75vh;
+    right: 14vh;
 }

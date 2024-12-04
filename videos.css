@@ -17,26 +17,91 @@ html, body{
 }
 
 header{
-    position: fixed;
-    padding: 16px;
+    background-image: url(./img/estrelas\ 1.png);
+    background-color: black;
+    height: 100px;
     width: 100vw;
-}
-
-header nav ul{
     display: flex;
     justify-content: space-between;
-    color: #EAD5FF;
+    align-items: center
+}
+body{
+    background-image: url(./img/estrelas\ 1.png);
+    background-color: black;
 }
 
-header nav ul a{
-    padding: 8px;
-    transition: 1s;
+.inicio a{
+    position: absolute;
+    top: 4vh;
+    text-decoration: none;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #ead5ff;
 }
 
-.grupo{
-    height: 100dvh;
+.menu{
+    display: flex;
+    gap: 70px; /*Distância entre os elementos */
 }
 
-#videos{
-    background-color: pink;
+header a{
+    text-decoration: none;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #ead5ff;
+}
+
+header h1{
+    display: inline;
+    position: absolute;
+    right: 10vh;
+    top: 3vh;
+    font-size: 20px;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #ead5ff;
+}
+.inicio img{
+    height: 45px;
+}
+
+.logo img{
+    height: 80px;
+}
+
+#videos h1{
+    font-size: 15vh;
+    color: black;
+    justify-content: center;
+    display: flex;
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 5%;
+    background-image: linear-gradient(to bottom, #7A46AD, #321D47);
+    background-clip:text;
+    /*permite que o fundo ou imagem seja recortado de acordo com o formato do texto */
+    -webkit-text-fill-color: transparent;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    gap: 5vh;
+    margin-top: 10vh;
+    
+}
+
+.rolagem{
+    display: flex;
+    justify-content: center;
+    gap: 2vh;
+    margin-top: 5vh;
+}
+.rolagem img{
+    height: 3vh;
+    align-items: center;
 }
